@@ -3,5 +3,5 @@
 https://github.com/rancher/rke
 
 ```bash
-docker run --rm -ti perrit/rancher-rke
+docker run --rm -ti perritbv/rancher-rke
 ```
