@@ -3,5 +3,5 @@ RUN ["/usr/bin/wget", "-cO", "/rke", "https://github.com/rancher/rke/releases/do
 RUN ["/bin/chmod", "+x", "/rke"]
 
 FROM scratch
-COPY --from=0 rke .
+COPY --from=0 /rke /rke
 ENTRYPOINT ["/rke"]
