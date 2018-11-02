@@ -1,4 +1,4 @@
-# Container for the Rancher Kubernetes Engine CLI tool
+# Container for the Rancher Kubernetes Engine
 
 ## Usage
 
