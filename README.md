@@ -1,4 +1,4 @@
-# Container for the Rancher RKT CLI tool
+# Container for the Rancher Kubernetes Engine CLI tool
 
 ## Usage
 
