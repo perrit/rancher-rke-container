@@ -9,12 +9,12 @@ At the time of checking we were unable to find an official container image maint
 ## Examples
 
 ```bash
-docker run --rm -ti perritbv/rancher-rke --help
-docker run --rm -ti perritbv/rancher-rke --version
+docker run --rm -ti perrit/rancher-rke --help
+docker run --rm -ti perrit/rancher-rke --version
 ```
 
 ## Links
 
 * https://github.com/rancher/rke
 * https://github.com/perrit/rancher-rke-container
-* https://hub.docker.com/r/perritbv/rancher-rke/
+* https://hub.docker.com/r/perrit/rancher-rke/
