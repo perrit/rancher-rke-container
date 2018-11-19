@@ -1,5 +1,5 @@
 FROM alpine as fetch
-RUN wget -cO /tmp/rke https://github.com/rancher/rke/releases/download/v0.1.11/rke_linux-amd64
+RUN wget -cO /tmp/rke https://github.com/rancher/rke/releases/download/v0.1.12-rc5/rke_linux-amd64
 RUN chmod +x /tmp/rke
 
 FROM busybox
