@@ -11,3 +11,5 @@ FROM busybox
 ARG RKE_PATH
 LABEL maintainer="Perrit B.V. <support@perrit.nl>"
 COPY --from=fetch $RKE_PATH $RKE_PATH
+ENV RKE_PATH=$RKE_PATH
+CMD $RKE_PATH --help
