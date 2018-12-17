@@ -17,4 +17,5 @@ docker run --rm -ti perrit/rancher-rke rke --version
 
 * https://github.com/rancher/rke
 * https://github.com/perrit/rancher-rke-container
+* https://gitlab.com/perrit/rancher-rke-container
 * https://hub.docker.com/r/perrit/rancher-rke/
