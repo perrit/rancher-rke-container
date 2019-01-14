@@ -11,6 +11,9 @@ At the time of checking we were unable to find an official container image maint
 ```bash
 docker run --rm -ti perrit/rancher-rke rke --help
 docker run --rm -ti perrit/rancher-rke rke --version
+docker run --rm -ti registry.gitlab.com/perrit/rancher-rke-container rke --help
+docker run --rm -ti registry.gitlab.com/perrit/rancher-rke-container rke -version
+
 ```
 
 ## Links
